@@ -5,9 +5,47 @@ layout: default
 {% include hero.html %}
 
 <section class="about" id="about">
-  <div class="container">
-    <div class="col-xs-12 col-sm-10 col-sm-offset-1 text-left">
-      {{ site.event.about.description | markdownify }}
+  <div class="container flexCol">
+    <div class="col-xs-12 col-sm-10 col-sm-offset-1 text-left flexRow">
+      <img alt="placeholder" src="images/vikingTree.svg" id="tree">
+      <p>
+        The rapid advancement of technology creates opportunities to utilize it for the betterment of society. 
+        VikingHacks challenges its participants to build with social good in mind and provides an opportunity to explore the intersection between society and tech.
+        VikingHacks is a 48 hour event where students will collaborate on building solutions that advance social good. 
+        We will have free workshops, lecture series, mentorship, prizes, games and much more!
+      </p>
+    </div>
+    <div class="col-xs-12 col-sm-10 col-sm-offset-1 text-left flexRow">
+      <p>
+        Our mission is to unite passionate students to create meaningful and impactful solutions. 
+        But, this is not just about building meaningful projects. 
+        It is also an open forum to discuss, share and bring to life ideas that use technology to create a positive impact!
+      </p>
+      <img alt="placeholder" src="images/vikingHelmet.svg" id="helmet">
+    </div>
+  </div>
+</section>
+
+<section class="tracks">
+  <h1>Tracks</h1>
+  <div class="flexRow" id="trackRotate">
+    <div class="flexCol track">
+      <h3>Sustainability</h3>
+      <p>
+        This track is about developing technological tools that will help solve issues like energy use, allocation and environmental regulations. 
+      </p>
+    </div>
+    <div class="flexCol track">
+      <h3>Social Good</h3>
+      <p>
+        This track is about leveraging technology to make our community more diverse and inclusive. We challenge participants to be introspective about how their products can reflect the change they want to see and be part of it!
+      </p>
+    </div>
+    <div class="flexCol track">
+      <h3>Just for Fun</h3>
+      <p>
+        This track is for those that want to participant but don’t want the pressures of being judged on their project!
+      </p>
     </div>
   </div>
 </section>
@@ -27,6 +65,11 @@ layout: default
     </div>
   </div>
 </section> -->
+
+
+<section id="tracksSponsorTransition">
+  <div></div>
+</section> 
 
 <section class="sponsors">
   <div class="container">
@@ -82,6 +125,8 @@ layout: default
     </div>
   </div>
 </section>
+
+
 
 <section class="faq">
   <div class="container">

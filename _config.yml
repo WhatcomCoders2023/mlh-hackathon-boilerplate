@@ -36,7 +36,7 @@ seo:
 # Event information.
 event:
   name: "VikingHacks"
-  description: "Challenging Innovators to Enhance Education and the Student Experience"
+  description: "Challenging Innovators to Create Sustainable and Impactful Solutions"
   date: "May 20-21 2023"
   location: "Western Washington University, Bellingham, WA"
 
@@ -46,7 +46,7 @@ event:
 
   hero:
     links:
-      - text: "Interest Form"
+      - text: "Sign up"
         href: "https://forms.gle/BNc33h1JtJihXka36"
         # my_mlh:
         #   client_id: "0e2f9fc2921d3ad3e12ae900af630d09382e1b3dc1b5b50de2b01b70ad64dbee"
@@ -84,6 +84,8 @@ event:
           link: "https://github.com/"
         - image: "images/stackoverflow-logo.png"
           link: "https://stackoverflow.com/"
+        - image: "images/radix-logo.png"
+          link: "https://radix.website/"
       silver:
         # - image: "images/stackoverflow-logo.png"
         #   link: "https://stackoverflow.com/"
